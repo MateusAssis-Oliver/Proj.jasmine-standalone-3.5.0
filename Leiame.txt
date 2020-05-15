@@ -1,0 +1,22 @@
+O Algoritmo de Euclides em Pseudocódigo teríamos Algo mais ou menos assim:
+
+
+1. mdc(a, b)
+2. |   se(b = 0)
+3. |   |   retorne a
+4. |   senão
+5. |   |   retorne mdc(b, a % b)
+6. |   fim_se
+7. fim_mdc
+
+
+
+Para demonstrar o funcionamento do algoritmo, vamos dar alguns exemplos:
+
+mdc(30,60)
+Como 60 e diferente de zero 
+
+=mdc(60,30%60)
+=mdc(60,30)
+=mdc(30,60%30)
+=mdc(30,0)=30
